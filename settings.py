@@ -1,0 +1,7 @@
+class Settings:
+    """Класс для хранения всех настроек игры 'инашапатяни' """
+    def __init__(self):
+        """иницыализирует настройки игры"""
+        self.screen_width = 1200
+        self.screen_heigt = 800
+        self.bg_color = (230, 230, 230)

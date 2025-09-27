@@ -9,7 +9,7 @@ class AlienInvasio:
     def __init__(self):
         pygame.init()
         self.colck = pygame.time.Clock()
-        self.settings = Settings()
+        self.settings = Settings() # создаем экземпляр класса Settings
 
         self.screen = pygame.display.set_mode((self.settings.screen_width,self.settings.screen_heigt))
 

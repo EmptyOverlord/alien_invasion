@@ -19,8 +19,8 @@ class AlienInvasion:
 
         pygame.display.set_caption("👽Alien Invasion👽🚀")
 
-    def run_game(self):
-        """Запускает основной цикл игры"""
+    def run_game(self): 
+        """Запускает основной цикл иг                     ры"""
         while True:
             # Отслеживание событий клавиатуры и мыши
             for event in pygame.event.get():
